@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        poetryModelList.add(new PoetryModel(1,"ishika trivedi u need to work hard","ishika", "10-10-2010"));
+        poetryModelList.add(new PoetryModel(1,"ishika trivedi ","ishika", "10-10-2010"));
 
         initialization();
         setadapter(poetryModelList);
