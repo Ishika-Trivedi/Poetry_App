@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:id="@+id/textView_poetName"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:text="ishika trivedi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:id="@+id/textView_poetryData"
+        android:textColor="@color/black"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:text="The present article means only to describe in as general a way as possible certain properties of poetry and of poetic thought regarded as in some sense independent modes of the mind."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:id="@+id/textView_poetryDateTime"
+        android:gravity="center_vertical|right"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="10 april 2021"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/update_btn"
+            android:textAllCaps="false"
+            android:text="Update"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/delete_btn"
+            android:textAllCaps="false"
+            android:text="Delete"/>
+    </LinearLayout>
+
+</LinearLayout>
